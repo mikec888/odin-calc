@@ -1,0 +1,46 @@
+.displayScreen{
+    width: 300px;
+    height: 50px;
+    text-align:end;
+    border: 2px solid pink;
+    margin: auto;
+}
+
+.displayScreen2{
+    width: 300px;
+    height: 25px;
+    text-align:center;
+    border: 2px solid pink;
+    margin: auto;
+    font-size: 1.4rem;
+    overflow-wrap: break-word;
+}
+
+.operatorSet{
+    margin: 10px;
+}
+
+.numberSet{
+    margin: 10px;
+}
+
+.resultSet{
+    margin: 10px;
+}
+
+body{
+    display: flex;
+    align-items: flex-start;
+    width: 330px;
+    height: 280px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px dotted black;
+}
+
+h4 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
